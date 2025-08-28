@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-brown: #53423e;
+  --color-lightBrown: #a0522d;
+  --color-darkBrown: #3e2723;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --color-cyan: #00ffff;
+  --color-lightCyan: #e0ffff;
+  --color-darkCyan: #008b8b;
+
+  --color-orange: #ffa500;
+  --color-lightOrange: #ffd580;
+  --color-darkOrange: #ff8c00;
+
+  --color-grey: #808080;
+  --color-lightGrey: #d3d3d3;
+  --color-darkGrey: #404040;
+
+  /* front family  */
+  /* fonts */
+  --font-body: "Josefin Sans", sans-serif;
+  --font-special: "Roboto", sans-serif;
+
+  /* shadows */
+  --shadow-cyanShadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+  --shadow-cyanMediumShadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.51);
+  --shadow-orangeMedium: 10px 10px 200px 150px rgba(240, 169, 79, 0.51);
+
+
+  /* Screens (custom breakpoints) */
+  --breakpoint-xs: 300px;   /* 👈 extra tiny phones */
+  --breakpoint-sm: 350px;   /* 👈 small */
+  --breakpoint-md: 768px;   /* 👈 medium */
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+
+  
+}
+
+
+
+body {
+  @apply bg-darkBrown;
+}
