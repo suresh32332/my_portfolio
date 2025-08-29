@@ -13,21 +13,21 @@ const projects = [
     year: "Aug2025",
     align: "right",
     image: myPortfolio,
-    link: "#",
+    link: "https://github.com/suresh32332/my_portfolio",
   },
   {
     name: "Employee Management System",
     year: "Jun2025",
     align: "left",
     image: emsImage,
-    link: "#",
+    link: "https://github.com/suresh32332/ems_crud",
   },
   {
     name: " ChatBot for Government Schemes ",
     year: "Apr2024",
     align: "right",
     image: chatbot,
-    link: "#",
+    link: "https://github.com/suresh32332/chat_bot",
   }
   
 ];
@@ -51,6 +51,8 @@ const ProjectMain = () => {
               year={item.year}
               align={item.align}
               image={item.image}
+              link={item.link}
+            
             />
           );
         })}
